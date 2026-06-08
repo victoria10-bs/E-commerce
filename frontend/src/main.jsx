@@ -15,7 +15,7 @@ import Registro from '../components/Registro';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <CartProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/E-commerce">
         <Routes>
           {/* El Layout envuelve a las rutas hijas */}
           <Route element={<Layout />}>
